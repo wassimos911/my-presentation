@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation PIE : Résumé des Séances</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .slide {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: none;
+        }
+        .slide.active {
+            display: block;
+        }
+        h1, h2 {
+            color: #006400; /* Vert pour les titres */
+        }
+        h2 {
+            color: #00008B; /* Bleu pour les sous-titres */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .navigation {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        button {
+            background-color: #006400;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004d00;
+        }
+        .quote {
+            font-style: italic;
+            font-weight: bold;
+            color: #00008B;
+        }
+    </style>
+</head>
+<body>
+    <div id="slides">
+        <!-- Diapositive 1 -->
+        <div class="slide active" id="slide1">
+            <h1>Programme d'Innovation Entrepreneuriale (PIE) : </h1>
+            <h2>Développer l'esprit d'initiative, la créativité et la capacité à agir</h2>
+            <p><br>
+            Nous allons vous présenter aujourd’hui un résumé des quatre premières séances du Programme d’Innovation Entrepreneuriale (PIE).<br>
+            Ce programme nous aide à développer notre esprit d’initiative, notre créativité et notre capacité à agir.<br>
+            Il nous apprend à devenir des personnes entreprenantes, capables de résoudre des problèmes et de travailler en équipe.<br>
+            À travers ces quatre séances, nous avons découvert ce que signifie être entrepreneur, comment penser différemment et comment créer de la valeur autour de nous.<br>
+            Voici ce que nous avons appris.</p>
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800" alt="Groupe collaborant autour d'idées">
+        </div>
+
+        <!-- Diapositive 2 -->
+        <div class="slide" id="slide2">
+            <h2> À la découverte de l’entrepreneuriat :</h2>
+            <p>Durant la première séance, nous avons découvert que l’entrepreneuriat, c’est avant tout une façon d’être et de penser.<br>
+            Être entrepreneur, ce n’est pas seulement créer une entreprise, mais c’est oser, prendre des initiatives, et chercher à améliorer les choses autour de soi.<br>
+            Le formateur nous a expliqué que pour réussir, il faut d’abord croire en soi, être curieux et apprendre à travailler avec les autres.<br>
+            Nous avons aussi parlé des valeurs essentielles : la collaboration, le respect, la créativité et la persévérance.<br>
+            C’était une séance motivante qui nous a poussés à sortir de notre zone de confort.</p>
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Personne confiante sur une montagne">
+        </div>
+
+        <!-- Diapositive 3 -->
+        <div class="slide" id="slide3">
+            <h2> À la découverte de l’entrepreneuriat :</h2>
+            <p>Nous avons également appris que tout le monde peut être entreprenant, même sans argent ni projet précis.<br>
+            Ce qui compte, c’est l’attitude : la capacité à observer, à réfléchir, et à chercher des solutions.<br>
+            L’entrepreneur ne se contente pas d’attendre, il agit.<br>
+            Nous avons fait des activités pour apprendre à écouter les autres sans juger, à partager nos idées librement et à travailler en groupe.<br>
+            La conclusion de cette première séance : le changement commence par une idée, et surtout par l’action.</p>
+            <img src="istockphoto-1443245439-1024x1024.jpg" alt="Groupe travaillant en équipe">
+        </div>
+
+        <!-- Diapositive 4 -->
+        <div class="slide" id="slide4">
+            <h2> Découvrons les entrepreneurs :</h2>
+            <p>La deuxième séance nous a permis de découvrir des histoires réelles d’entrepreneurs marocains et étrangers.<br>
+            Chacun devait choisir trois entrepreneurs et présenter celui qu’il admirait le plus.<br>
+            Cet exercice nous a aidés à développer la prise de parole en public et la confiance en soi.<br>
+            Nous avons appris à bien nous exprimer, à capter l’attention du public et à encourager nos camarades.<br>
+            Cette séance nous a aussi montré que tous les grands entrepreneurs ont connu des échecs avant de réussir.</p>
+            <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=800" alt="Entrepreneur présentant">
+        </div>
+
+        <!-- Diapositive 5 -->
+        <div class="slide" id="slide5">
+            <h2> Découvrons les entrepreneurs :</h2>
+            <p>À travers ces présentations, nous avons compris que l’entrepreneuriat, c’est une aventure humaine avant tout.<br>
+            Les entrepreneurs que nous avons découverts avaient souvent commencé sans moyens, mais avec beaucoup d’idées et de détermination.<br>
+            Nous avons appris à écouter activement, à respecter les différences et à valoriser les réussites de chacun.<br>
+            Cette séance nous a inspirés à croire que nous aussi, nous pouvons créer notre propre chemin, même à partir de peu.</p>
+            <img src="https://cdn.pixabay.com/photo/2016/03/09/09/22/map-1245772_1280.jpg" alt="Carte du Maroc avec icônes">
+        </div>
+
+        <!-- Diapositive 6 -->
+        <div class="slide" id="slide6">
+            <h2> Notre mission d’entrepreneur :</h2>
+            <p>La troisième séance était très pratique.<br>
+            Le formateur nous a proposé une mission : imaginer que nous sommes déjà des entrepreneurs.<br>
+            Nous avons réfléchi aux problèmes que rencontrent souvent les jeunes qui veulent créer un projet :<br>
+            manque d’argent, manque d’idées, peur de l’échec, ou encore le manque de soutien.<br>
+            Mais au lieu de dire “je ne peux pas”, nous avons appris à dire : “comment puis-je le faire ?”<br>
+            C’était une manière de transformer nos blocages en opportunités.</p>
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800" alt="Groupe résolvant des problèmes">
+        </div>
+
+        <!-- Diapositive 7 -->
+        <div class="slide" id="slide7">
+            <h2> Notre mission d’entrepreneur :</h2>
+            <p>En groupe, nous avons cherché des solutions simples et créatives à ces problèmes.<br>
+            Cette séance nous a appris à raisonner comme de vrais entrepreneurs : à observer, à proposer, à tester.<br>
+            Nous avons compris que ce n’est pas la taille du projet qui compte, mais la capacité à agir avec ce qu’on a.<br>
+            Le message principal était clair : l’entrepreneur est une personne qui agit malgré les obstacles.<br>
+            Cette attitude positive est ce qui fait la différence entre un rêve et une réalité.</p>
+            <img src="https://cdn.pixabay.com/photo/2016/11/29/08/41/apple-1868496_1280.jpg" alt="Prototype créatif">
+        </div>
+
+        <!-- Diapositive 8 -->
+        <div class="slide" id="slide8">
+            <h2> Pourquoi entreprendre :</h2>
+            <p>La quatrième séance répondait à une question essentielle : pourquoi entreprendre ?<br>
+            Au début, beaucoup d’entre nous pensaient que c’était pour gagner de l’argent ou être indépendants.<br>
+            Mais à travers la discussion, nous avons compris que la vraie motivation, c’est d’apporter une solution à un besoin ou un problème.<br>
+            L’entrepreneuriat, c’est avant tout vouloir améliorer la vie des autres, créer de la valeur et contribuer au changement dans la société.</p>
+            <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800" alt="Communauté aidant les autres">
+        </div>
+
+        <!-- Diapositive 9 -->
+        <div class="slide" id="slide9">
+            <h2> Pourquoi entreprendre  + Conclusion</h2>
+            <p>Nous avons découvert des exemples inspirants d’entrepreneurs marocains :</p>
+            <ul>
+                <li>Citron, une maman qui a créé une boîte innovante pour faciliter la vie quotidienne.</li>
+                <li>MIRATTI, un jeune qui a lancé des sacs élégants à partir d’un besoin personnel.</li>
+                <li>ANOU et AMAZ, deux initiatives sociales qui ont eu un impact positif sur les artisans et les filles rurales.</li>
+            </ul>
+            <p>Ces histoires nous ont montré que la réussite vient quand on agit avec passion et utilité.<br>
+            💬 En conclusion, ces quatre séances nous ont permis de comprendre que tout commence par une idée, une attitude et la volonté d’agir.<br>
+            <span class="quote">“Le problème n’est pas le problème, c’est ton attitude face au problème.”</span></p>
+            <img src="istockphoto-978997578-1024x1024.jpg" alt="Produits artisanaux marocains">
+        </div>
+
+        <!-- Diapositive 10 -->
+        <div class="slide" id="slide10">
+            <h2>Merci !</h2>
+            <p>Questions ? Contact : [Vos coordonnées]<br>
+            Merci au formateur et aux participants.</p>
+            <img src="people-6027028_1280.jpg" alt="Groupe souriant">
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button id="prev">Précédent</button>
+        <button id="next">Suivant</button>
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 10;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(n) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            document.getElementById('slide' + n).classList.add('active');
+        }
+
+        document.getElementById('next').addEventListener('click', () => {
+            if (currentSlide < totalSlides) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        });
+
+        document.getElementById('prev').addEventListener('click', () => {
+            if (currentSlide > 1) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
+    </script>
+</body>
+</html>
